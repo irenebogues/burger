@@ -3,6 +3,7 @@
 // *********************************************************************************
 
 var mysql = require("mysql");
+var keys = require("./keys")
 
 // we placed the connections in this source object
 var source = {
@@ -17,15 +18,17 @@ var source = {
 
   
 
-// we use source.[name of connection] to hook into mysql
-var connection = mysql.createConnection(source.localhost);
-
-connection.connect(function(err) {
-  if (err) {
-    console.error("error connecting: " + err.stack);
-    return;
-  }
-  console.log("connected as id " + connection.threadId);
-});
-
-module.exports = connection;
+  
+  
+   var connection = mysql.createConnection(keys);
+  
+   connection.connect(error => {
+    if (error) {
+      console.log(error);
+      return;
+    };
+    console.log("Connected as id " + connection.threadId);
+  });
+  
+   module.exports = connection; 
+  
