@@ -28,7 +28,7 @@ To create a burger logger with MySQL, Node, Express, Handlebars and a homemade O
 ├── public
 │   └── assets
 │       ├── css
-│       │   └── burger_style.css
+│       │   └── style.css
 │       └── img
 │           └── burger.png
 │   
