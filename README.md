@@ -4,6 +4,9 @@
 To create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Ensures to follow the MVC design pattern; I use Node and MySQL to query and route data in my app, and Handlebars to generate my HTML.
 
 # Data Structure
+
+```
+.
 ├── config
 │   ├── connection.js
 │   └── orm.js
@@ -36,7 +39,7 @@ To create a burger logger with MySQL, Node, Express, Handlebars and a homemade O
     ├── index.handlebars
     └── layouts
         └── main.handlebars
-
+```
 
 ## Built With
 * HTML
