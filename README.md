@@ -1,7 +1,7 @@
 # The Burger App
 
 ## Objectives
-To create a burger logger using MVC Framework and built with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Ensures to follow the MVC design pattern; I use Node and MySQL to query and route data in my app, and Handlebars to generate my HTML.
+To create a burger logger using MVC Framework and built with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). I use Node and MySQL to query and route data in my app, and Handlebars to generate my HTML.
 
 # Data Structure
 

@@ -1,26 +1,28 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "The Burger App is a restaurant app that lets users input the names of burgers they'd like to eat.",
-  "main": "index.js",
+  "description": "## Objectives To create a burger logger using MVC Framework and built with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). I use Node and MySQL to query and route data in my app, and Handlebars to generate my HTML.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/irenebogues/burger.git"
   },
-  "author": "Irene Bogues",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/irenebogues/burger/issues"
   },
-  "homepage": "https://github.com/irenebogues/burger#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^3.0.0",
-    "mysql": "^2.16.0"
-  }
+  "homepage": "https://github.com/irenebogues/burger#readme"
 }
